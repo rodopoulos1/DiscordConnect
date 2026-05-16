@@ -25,11 +25,12 @@ Este guia cobre tudo do zero: desde criar o bot no Discord até deixá-lo rodand
 
 ---
 
+<a id="0-abrindo-o-terminal"></a>
 ## 💻 0. Abrindo o terminal
 
 O terminal é onde você digita comandos para instalar e rodar o bot. Veja como abrir em cada sistema:
 
-### 🪟 Windows
+### 🖥️ Windows
 
 **Opção 1 — Prompt de Comando:**
 1. Pressione `Windows + R`
@@ -55,6 +56,7 @@ Pressione `Ctrl+Alt+T` — funciona na maioria das distribuições.
 
 ---
 
+<a id="1-instalando-o-python"></a>
 ## 🐍 1. Instalando o Python
 
 O bot é escrito em Python, então você precisa instalá-lo antes de tudo.
@@ -72,6 +74,7 @@ Deve aparecer algo como `Python 3.11.x`.
 
 ---
 
+<a id="2-instalando-o-git"></a>
 ## 🌿 2. Instalando o Git
 
 O Git é necessário para baixar o projeto do GitHub.
@@ -87,6 +90,7 @@ git --version
 
 ---
 
+<a id="3-clonando-o-repositório"></a>
 ## 📥 3. Clonando o repositório
 
 Agora que o Git está instalado, baixe o projeto. Abra o terminal, navegue até a pasta onde quer salvar e rode:
@@ -100,6 +104,7 @@ cd DiscordConnect
 
 ---
 
+<a id="4-instalando-o-vs-code"></a>
 ## 🖥️ 4. Instalando o VS Code
 
 O VS Code é o editor recomendado para editar o `.env` e acompanhar o projeto.
@@ -122,6 +127,7 @@ Rode esse comando dentro da pasta `DiscordConnect` para abrir o projeto diretame
 
 ---
 
+<a id="5-instalando-as-dependências"></a>
 ## 📦 5. Instalando as dependências
 
 Com o projeto aberto, instale as bibliotecas necessárias:
@@ -134,6 +140,7 @@ pip install -r requirements.txt
 
 ---
 
+<a id="6-criando-o-bot-no-discord"></a>
 ## 🤖 6. Criando o bot no Discord
 
 ### 📁 6.1 Criando a aplicação
@@ -171,6 +178,7 @@ Os Intents são permissões que o bot precisa para funcionar corretamente.
 
 ---
 
+<a id="7-convidando-o-bot-para-o-servidor"></a>
 ## 📨 7. Convidando o bot para o servidor
 
 A forma mais fácil de gerar o link de convite é usando a calculadora de permissões do Discord:
@@ -193,6 +201,7 @@ Aproveite agora para pegar o **ID do canal** e o **ID do servidor** — você va
 
 ---
 
+<a id="8-ativando-o-github-pages"></a>
 ## 🌐 8. Ativando o GitHub Pages
 
 O botão de conexão precisa de uma página hospedada para funcionar. O GitHub Pages é gratuito e faz isso automaticamente.
@@ -215,6 +224,7 @@ https://seuusuario.github.io/DiscordConnect/connect.html
 
 ---
 
+<a id="9-configurando-o-env"></a>
 ## ⚙️ 9. Configurando o .env
 
 Agora você tem tudo que precisa: token do bot, ID do canal e URL do Pages. Vamos configurar o arquivo `.env`.
@@ -239,6 +249,7 @@ CONNECT_PAGE_URL=https://seuusuario.github.io/DiscordConnect/connect.html
 
 ---
 
+<a id="10-sistema-de-segurança--whitelist-de-servidores"></a>
 ## 🛡️ 10. Sistema de segurança — whitelist de servidores
 
 O bot inclui um sistema de segurança simples e eficaz: **whitelist de servidor**.
@@ -322,6 +333,7 @@ O bot procura qualquer canal de texto onde ele tenha permissão para escrever, m
 
 ---
 
+<a id="11-rodando-o-bot"></a>
 ## 🚀 11. Rodando o bot
 
 Com tudo configurado, abra o terminal na pasta do projeto e rode:
@@ -342,6 +354,7 @@ Se tudo estiver certo, o bot vai conectar e enviar (ou atualizar) o painel no ca
 
 ---
 
+<a id="12-hospedando-o-bot-247"></a>
 ## ☁️ 12. Hospedando o bot 24/7
 
 Rodar o bot no seu computador pessoal significa que ele para quando você desliga a máquina. Para deixá-lo online o tempo todo, você precisa de um servidor.
@@ -358,6 +371,7 @@ Para contratar, entre em contato via Discord: **ascp**
 
 ---
 
+<a id="considerações-finais"></a>
 ## ✅ Considerações finais
 
 Se você chegou até aqui, parabéns — o bot está no ar!
