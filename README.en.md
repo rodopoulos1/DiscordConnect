@@ -114,3 +114,5 @@ The bot will automatically generate the link with `?ip=...&port=...` parameters 
 Feel free to reach out on Discord: **Rodopoulos**
 
 > Tip: try to include your question in the first message — saves time for both of us. ([nohello.net](https://nohello.net/en/))
+
+🤝 Have a project in mind, no matter the size? Hit me up on Discord: **Rodopoulos**

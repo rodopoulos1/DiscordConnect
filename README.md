@@ -114,3 +114,5 @@ O bot vai gerar automaticamente o link com os parâmetros `?ip=...&port=...` e a
 Qualquer dúvida, me chama no Discord: **Rodopoulos**
 
 > Dica: tente incluir sua dúvida já na primeira mensagem — economiza tempo dos dois. ([nohello.net/pt-br](https://nohello.net/pt-br/))
+
+🤝 Tem algum projeto em mente, independente do tamanho? Me chame no Discord: **Rodopoulos**

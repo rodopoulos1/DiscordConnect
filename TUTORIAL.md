@@ -396,3 +396,5 @@ Algumas dicas para manter tudo funcionando bem:
 
 > Dica: tente incluir sua dúvida já na primeira mensagem — economiza tempo dos dois. ([nohello.net/pt-br](https://nohello.net/pt-br/))
 
+🤝 Tem algum projeto em mente, independente do tamanho? Me chame no Discord: **Rodopoulos**
+
