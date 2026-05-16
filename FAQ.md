@@ -18,6 +18,7 @@
 
 ---
 
+<a id="erros-no-console-e-reconexões-automáticas"></a>
 ## ⚠️ Erros no console e reconexões automáticas
 
 ### ❓ Vejo vários erros no console, devo me preocupar?
@@ -44,6 +45,7 @@ Se o bot **parar de vez** e não se reconectar mais:
 
 ---
 
+<a id="python--pip"></a>
 ## 🐍 Python / pip
 
 ### ❌ "python não é reconhecido como um comando interno"
@@ -84,6 +86,7 @@ pip install python-dotenv
 
 ---
 
+<a id="bot-não-conecta"></a>
 ## ❌ Bot não conecta
 
 ### 🔑 "discord.errors.LoginFailure: Improper token has been passed"
@@ -104,6 +107,7 @@ Verifique:
 
 ---
 
+<a id="bot-conecta-mas-não-envia-a-mensagem"></a>
 ## 📭 Bot conecta mas não envia a mensagem
 
 ### 📭 Nada acontece no canal após rodar o bot
@@ -120,6 +124,7 @@ O bot não tem permissão para enviar mensagens no canal. Verifique:
 
 ---
 
+<a id="bot-entrou-no-servidor-e-saiu-imediatamente"></a>
 ## 🚪 Bot entrou no servidor e saiu imediatamente
 
 Você preencheu `GUILD_ID` no `.env` com o ID de um servidor diferente do que o bot está sendo adicionado, ou preencheu errado.
@@ -135,6 +140,7 @@ Se não quiser usar a whitelist por enquanto, deixe `GUILD_ID=` vazio.
 
 ---
 
+<a id="painel-não-atualiza"></a>
 ## 🔄 Painel não atualiza
 
 ### ⏱️ O embed ficou desatualizado e não muda mais
@@ -149,12 +155,14 @@ O arquivo `database/connect/msgid.json` foi deletado ou está corrompido. O bot 
 
 ---
 
+<a id="mensagem-duplicada-no-canal"></a>
 ## 📩 Mensagem duplicada no canal
 
 Se o bot está enviando uma nova mensagem toda vez que reinicia, o `msgid.json` provavelmente foi deletado junto com a pasta `database/`. O bot cria esse arquivo automaticamente ao enviar a primeira mensagem. A partir daí, sempre edita a mesma mensagem. Não delete a pasta `database/` enquanto o bot estiver em uso.
 
 ---
 
+<a id="imagem-não-aparece-no-embed"></a>
 ## 🖼️ Imagem não aparece no embed
 
 ### 🖼️ O embed aparece sem imagem
@@ -167,6 +175,7 @@ Possíveis causas:
 
 ---
 
+<a id="botão-de-conectar-não-funciona"></a>
 ## 🔗 Botão de conectar não funciona
 
 ### 🎮 O botão aparece mas não abre o jogo
@@ -182,6 +191,7 @@ Verifique `CONNECT_PAGE_URL` no `.env`:
 
 ---
 
+<a id="status-do-servidor-aparece-como-offline"></a>
 ## 📡 Status do servidor aparece como offline
 
 ### 📡 O servidor está online mas o bot mostra offline
@@ -197,6 +207,7 @@ O nome exibido é o `SERVER_NOME_PADRAO` do `.env` quando o servidor está offli
 
 ---
 
+<a id="bot-para-quando-fecho-o-terminal"></a>
 ## 💻 Bot para quando fecho o terminal
 
 Isso é esperado — o processo Python roda enquanto o terminal estiver aberto. Para manter o bot 24/7, você precisa de uma hospedagem. Veja a seção 12 do TUTORIAL.md.

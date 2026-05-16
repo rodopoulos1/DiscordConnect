@@ -1,6 +1,7 @@
 🌐 **Language / Idioma:** [English](README.en.md) · [Português](README.md)
 
 📖 **First time here?** Check the [Complete beginner's tutorial](TUTORIAL.md) (Portuguese)
+
 ❓ **Something went wrong?** Check the [FAQ and troubleshooting guide](FAQ.md) (Portuguese)
 
 ---
